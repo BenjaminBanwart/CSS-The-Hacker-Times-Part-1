@@ -43,6 +43,7 @@ nav li {
     float: left;
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -70,6 +71,9 @@ h5 {
 nav {
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
+    position: sticky;
+    top: 1px;
+    background-color: white;
 } 
 nav:after {
     content: "";
